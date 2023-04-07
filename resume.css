@@ -1,0 +1,19 @@
+/*Css controls the styles of our webpages
+We start by opening the body, which is everything in the body of our page*/
+body{
+    /*We can control the background color of the page and the color of the text using hex values*/
+    background-color: #DDD0c8;
+    color: #323232;
+    /*We can control many elements such as font, margin, and page width*/
+    font-family: arial;
+    margin:auto;
+    max-width: 50%;
+}
+
+/*The next thing we want to style is images on the page, we do this by closing the body block and opening a new block titled img*/
+img{
+    /*I want mine to be a circle, this can be done by drawing a border radius around it*/
+    border-radius: 70%;
+    /*my picture is too big, so i am going to shrink the image, height will scale automatically*/
+    width: 25%;
+}
